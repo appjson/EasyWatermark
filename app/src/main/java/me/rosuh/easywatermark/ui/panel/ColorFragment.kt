@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.panel
+package site.appjson.easywatermark.ui.panel
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -8,13 +8,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.skydoves.colorpickerview.ColorEnvelope
 import com.skydoves.colorpickerview.ColorPickerDialog
 import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.FragmentColorBinding
-import me.rosuh.easywatermark.ui.adapter.ColorPreviewAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
-import me.rosuh.easywatermark.utils.onItemClick
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.FragmentColorBinding
+import site.appjson.easywatermark.ui.adapter.ColorPreviewAdapter
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.utils.onItemClick
 
 class ColorFragment : BaseBindFragment<FragmentColorBinding>() {
 

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import androidx.constraintlayout.widget.ConstraintLayout

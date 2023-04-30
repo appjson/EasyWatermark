@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 interface LaunchViewListener {
     fun onModeChange(oldMode: LaunchView.ViewMode, newMode: LaunchView.ViewMode)

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.TextPaintStyle
-import me.rosuh.easywatermark.data.model.TextTypeface
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
-import me.rosuh.easywatermark.utils.ktx.colorOnPrimary
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.TextPaintStyle
+import site.appjson.easywatermark.data.model.TextTypeface
+import site.appjson.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.utils.ktx.colorOnPrimary
 
 class TextTypefaceAdapter(
     private val dataList: ArrayList<TextTypefaceModel>,

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark
+package site.appjson.easywatermark
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -9,7 +9,7 @@ import androidx.core.content.edit
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.*
 import me.rosuh.cmonet.CMonet
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
 import javax.inject.Inject
 import kotlin.system.exitProcess
 

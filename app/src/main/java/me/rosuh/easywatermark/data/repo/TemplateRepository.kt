@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.data.repo
+package site.appjson.easywatermark.data.repo
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
-import me.rosuh.easywatermark.data.db.dao.TemplateDao
-import me.rosuh.easywatermark.data.model.entity.Template
+import site.appjson.easywatermark.data.db.dao.TemplateDao
+import site.appjson.easywatermark.data.model.entity.Template
 import javax.inject.Inject
 
 class TemplateRepository @Inject constructor(

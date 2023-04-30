@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.utils
+package site.appjson.easywatermark.utils
 
 import android.app.Activity
 import android.content.Context

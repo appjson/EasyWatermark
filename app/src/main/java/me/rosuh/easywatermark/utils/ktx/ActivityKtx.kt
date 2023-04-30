@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.app.Activity
 import android.app.Dialog
@@ -12,7 +12,7 @@ import android.view.WindowInsets
 import android.view.WindowMetrics
 import androidx.fragment.app.*
 import androidx.viewbinding.ViewBinding
-import me.rosuh.easywatermark.R
+import site.appjson.easywatermark.R
 
 fun Activity.openLink(url: String, failedCallback: (() -> Unit)? = null) {
     openLink(Uri.parse(url), failedCallback)

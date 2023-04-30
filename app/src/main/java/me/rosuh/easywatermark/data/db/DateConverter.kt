@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.db
+package site.appjson.easywatermark.data.db
 
 import androidx.room.TypeConverter
 import java.util.Date

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui
+package site.appjson.easywatermark.ui
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -36,24 +36,24 @@ import com.google.android.material.tabs.TabLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.FuncTitleModel
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.data.model.ViewInfo
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
-import me.rosuh.easywatermark.ui.about.AboutActivity
-import me.rosuh.easywatermark.ui.adapter.FuncPanelAdapter
-import me.rosuh.easywatermark.ui.adapter.PhotoListPreviewAdapter
-import me.rosuh.easywatermark.ui.dialog.*
-import me.rosuh.easywatermark.ui.panel.*
-import me.rosuh.easywatermark.ui.widget.CenterLayoutManager
-import me.rosuh.easywatermark.ui.widget.LaunchView
-import me.rosuh.easywatermark.utils.FileUtils
-import me.rosuh.easywatermark.utils.PickImageContract
-import me.rosuh.easywatermark.utils.VibrateHelper
-import me.rosuh.easywatermark.utils.ktx.*
-import me.rosuh.easywatermark.utils.onItemClick
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.FuncTitleModel
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.data.model.ViewInfo
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.ui.about.AboutActivity
+import site.appjson.easywatermark.ui.adapter.FuncPanelAdapter
+import site.appjson.easywatermark.ui.adapter.PhotoListPreviewAdapter
+import site.appjson.easywatermark.ui.dialog.*
+import site.appjson.easywatermark.ui.panel.*
+import site.appjson.easywatermark.ui.widget.CenterLayoutManager
+import site.appjson.easywatermark.ui.widget.LaunchView
+import site.appjson.easywatermark.utils.FileUtils
+import site.appjson.easywatermark.utils.PickImageContract
+import site.appjson.easywatermark.utils.VibrateHelper
+import site.appjson.easywatermark.utils.ktx.*
+import site.appjson.easywatermark.utils.onItemClick
 
 
 @AndroidEntryPoint
@@ -199,7 +199,7 @@ class MainActivity : AppCompatActivity() {
         }
         val btnStore = findViewById<Button>(R.id.btn_store).apply {
             setOnClickListener {
-                openLink(Uri.parse("market://details?id=me.rosuh.easywatermark")) {
+                openLink(Uri.parse("market://details?id=site.appjson.easywatermark")) {
                     Toast.makeText(this@MainActivity, R.string.store_not_found, Toast.LENGTH_SHORT)
                         .show()
                 }

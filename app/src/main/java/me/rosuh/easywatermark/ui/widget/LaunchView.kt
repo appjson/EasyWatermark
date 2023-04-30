@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -18,11 +18,11 @@ import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.shape.ShapeAppearanceModel
 import com.google.android.material.tabs.TabLayout
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
-import me.rosuh.easywatermark.utils.ktx.dp
-import me.rosuh.easywatermark.utils.ktx.generateAppearAnimationList
-import me.rosuh.easywatermark.utils.ktx.generateDisappearAnimationList
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
+import site.appjson.easywatermark.utils.ktx.dp
+import site.appjson.easywatermark.utils.ktx.generateAppearAnimationList
+import site.appjson.easywatermark.utils.ktx.generateDisappearAnimationList
 import kotlin.math.abs
 
 /**

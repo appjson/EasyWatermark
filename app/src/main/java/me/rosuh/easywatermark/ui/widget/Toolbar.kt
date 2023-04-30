@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.ImageView
 import androidx.core.view.children
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.utils.ktx.dp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.utils.ktx.dp
 
 class Toolbar : CustomViewGroup {
 

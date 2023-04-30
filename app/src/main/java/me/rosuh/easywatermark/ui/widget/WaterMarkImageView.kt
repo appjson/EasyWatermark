@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -32,15 +32,15 @@ import kotlinx.coroutines.asCoroutineDispatcher
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.data.model.WaterMark
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository.Companion.DEFAULT_TEXT_SIZE
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository.Companion.MAX_TEXT_SIZE
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository.Companion.MIN_TEXT_SIZE
-import me.rosuh.easywatermark.ui.widget.utils.WaterMarkShader
-import me.rosuh.easywatermark.utils.bitmap.decodeSampledBitmapFromResource
-import me.rosuh.easywatermark.utils.ktx.applyConfig
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.data.model.WaterMark
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.data.repo.WaterMarkRepository.Companion.DEFAULT_TEXT_SIZE
+import site.appjson.easywatermark.data.repo.WaterMarkRepository.Companion.MAX_TEXT_SIZE
+import site.appjson.easywatermark.data.repo.WaterMarkRepository.Companion.MIN_TEXT_SIZE
+import site.appjson.easywatermark.ui.widget.utils.WaterMarkShader
+import site.appjson.easywatermark.utils.bitmap.decodeSampledBitmapFromResource
+import site.appjson.easywatermark.utils.ktx.applyConfig
 import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.coroutines.CoroutineContext

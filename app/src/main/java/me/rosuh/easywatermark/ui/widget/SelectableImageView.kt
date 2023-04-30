@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -10,7 +10,7 @@ import android.graphics.PorterDuffXfermode
 import android.graphics.drawable.BitmapDrawable
 import android.util.AttributeSet
 import android.view.View
-import me.rosuh.easywatermark.R
+import site.appjson.easywatermark.R
 import kotlin.math.min
 
 class SelectableImageView : View {

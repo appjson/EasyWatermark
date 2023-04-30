@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.Manifest
 import android.app.Activity
@@ -17,8 +17,8 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import me.rosuh.cmonet.CMonet
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.ui.MainActivity
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.ui.MainActivity
 
 fun Activity.isStoragePermissionGrated(): Boolean {
     val readGranted = ContextCompat.checkSelfPermission(

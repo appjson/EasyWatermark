@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.di
+package site.appjson.easywatermark.di
 
 import android.content.Context
 import androidx.room.Room
@@ -7,7 +7,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import me.rosuh.easywatermark.data.db.AppDatabase
+import site.appjson.easywatermark.data.db.AppDatabase
 import java.util.Locale
 import javax.inject.Singleton
 

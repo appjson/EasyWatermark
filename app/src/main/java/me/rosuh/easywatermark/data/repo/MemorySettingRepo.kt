@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.repo
+package site.appjson.easywatermark.data.repo
 
 import androidx.palette.graphics.Palette
 import kotlinx.coroutines.CoroutineScope
@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import me.rosuh.easywatermark.MyApp
+import site.appjson.easywatermark.MyApp
 import javax.inject.Inject
 import javax.inject.Singleton
 

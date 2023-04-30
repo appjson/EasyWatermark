@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -11,11 +11,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.ui.Image
-import me.rosuh.easywatermark.ui.widget.AsyncSquareFrameLayout
-import me.rosuh.easywatermark.ui.widget.RadioButton
-import me.rosuh.easywatermark.utils.ktx.loadSmall
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.ui.Image
+import site.appjson.easywatermark.ui.widget.AsyncSquareFrameLayout
+import site.appjson.easywatermark.ui.widget.RadioButton
+import site.appjson.easywatermark.utils.ktx.loadSmall
 
 
 class GalleryAdapter : RecyclerView.Adapter<GalleryAdapter.GalleryItemHolder>() {

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -8,10 +8,10 @@ import android.hardware.display.DisplayManager
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.graphics.drawable.toBitmap
-import me.rosuh.easywatermark.utils.ktx.colorPrimary
-import me.rosuh.easywatermark.utils.ktx.colorSecondary
-import me.rosuh.easywatermark.utils.ktx.colorTertiary
-import me.rosuh.easywatermark.utils.ktx.supportDynamicColor
+import site.appjson.easywatermark.utils.ktx.colorPrimary
+import site.appjson.easywatermark.utils.ktx.colorSecondary
+import site.appjson.easywatermark.utils.ktx.colorTertiary
+import site.appjson.easywatermark.utils.ktx.supportDynamicColor
 
 class ColoredImageVIew : AppCompatImageView {
     constructor(context: Context) : super(context)

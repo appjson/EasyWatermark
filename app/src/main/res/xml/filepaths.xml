@@ -5,5 +5,5 @@
         path="compressor/"/>
     <external-path
         name="my_external_dir"
-        path="Pictures/EasyWaterMark/"/>
+        path="Pictures/"/>
 </paths>

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.app.Dialog
 import android.os.Bundle
@@ -13,9 +13,9 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import com.google.android.material.button.MaterialButton
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.Result
-import me.rosuh.easywatermark.ui.MainViewModel
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.Result
+import site.appjson.easywatermark.ui.MainViewModel
 
 class CompressImageDialogFragment : DialogFragment() {
 

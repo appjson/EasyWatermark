@@ -1,10 +1,10 @@
-package me.rosuh.easywatermark.ui.widget.utils
+package site.appjson.easywatermark.ui.widget.utils
 
 import android.content.Context
 import android.widget.EdgeEffect
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.EdgeEffectFactory.DIRECTION_LEFT
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.ui.base.BaseViewHolder
 
 class SimpleOverScrollEdgeEffect(
     val recyclerView: RecyclerView,

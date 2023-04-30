@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.base
+package site.appjson.easywatermark.ui.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

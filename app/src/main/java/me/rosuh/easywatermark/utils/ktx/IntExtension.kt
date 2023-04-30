@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.animation.ArgbEvaluator
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
 import android.content.res.Resources
 import android.util.TypedValue
-import me.rosuh.easywatermark.ui.widget.WaterMarkImageView
+import site.appjson.easywatermark.ui.widget.WaterMarkImageView
 
 val Int.dp
     get() = TypedValue.applyDimension(

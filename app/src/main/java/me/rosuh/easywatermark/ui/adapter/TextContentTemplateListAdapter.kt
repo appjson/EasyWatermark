@@ -1,12 +1,12 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.data.model.entity.Template
-import me.rosuh.easywatermark.databinding.ItemTemplateListBinding
+import site.appjson.easywatermark.data.model.entity.Template
+import site.appjson.easywatermark.databinding.ItemTemplateListBinding
 
 class TextContentTemplateListAdapter(
     private val listener: TextContentTemplateListAdapterListener? = null

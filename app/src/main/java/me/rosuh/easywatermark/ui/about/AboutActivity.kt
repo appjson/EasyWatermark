@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.about
+package site.appjson.easywatermark.ui.about
 
 import android.content.Intent
 import android.content.res.ColorStateList
@@ -20,16 +20,16 @@ import androidx.core.widget.TextViewCompat
 import androidx.palette.graphics.Palette
 import dagger.hilt.android.AndroidEntryPoint
 import me.rosuh.cmonet.CMonet
-import me.rosuh.easywatermark.BuildConfig
-import me.rosuh.easywatermark.databinding.ActivityAboutBinding
-import me.rosuh.easywatermark.utils.ktx.bgColor
-import me.rosuh.easywatermark.utils.ktx.colorBackground
-import me.rosuh.easywatermark.utils.ktx.colorPrimary
-import me.rosuh.easywatermark.utils.ktx.colorSecondaryContainer
-import me.rosuh.easywatermark.utils.ktx.colorSurface
-import me.rosuh.easywatermark.utils.ktx.inflate
-import me.rosuh.easywatermark.utils.ktx.openLink
-import me.rosuh.easywatermark.utils.ktx.titleTextColor
+import site.appjson.easywatermark.BuildConfig
+import site.appjson.easywatermark.databinding.ActivityAboutBinding
+import site.appjson.easywatermark.utils.ktx.bgColor
+import site.appjson.easywatermark.utils.ktx.colorBackground
+import site.appjson.easywatermark.utils.ktx.colorPrimary
+import site.appjson.easywatermark.utils.ktx.colorSecondaryContainer
+import site.appjson.easywatermark.utils.ktx.colorSurface
+import site.appjson.easywatermark.utils.ktx.inflate
+import site.appjson.easywatermark.utils.ktx.openLink
+import site.appjson.easywatermark.utils.ktx.titleTextColor
 
 @AndroidEntryPoint
 class AboutActivity : AppCompatActivity() {
@@ -67,7 +67,7 @@ class AboutActivity : AppCompatActivity() {
         with(binding) {
             bgDrawable = ContextCompat.getDrawable(
                 this@AboutActivity,
-                me.rosuh.easywatermark.R.drawable.bg_gradient_about_page
+                site.appjson.easywatermark.R.drawable.bg_gradient_about_page
             ) as GradientDrawable
 
             this.root.background = bgDrawable
@@ -76,7 +76,7 @@ class AboutActivity : AppCompatActivity() {
             }
             tvVersionValue.text = BuildConfig.VERSION_NAME
             tvRating.setOnClickListener {
-                openLink(Uri.parse("market://details?id=me.rosuh.easywatermark"))
+                openLink(Uri.parse("market://details?id=site.appjson.easywatermark"))
             }
             tvFeedBack.setOnClickListener {
                 openLink("https://github.com/rosuH/EasyWatermark/issues/new")

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,12 +13,12 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.DialogEditTextTemplateListBinding
-import me.rosuh.easywatermark.ui.UiState
-import me.rosuh.easywatermark.ui.adapter.TextContentTemplateListAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.DialogEditTextTemplateListBinding
+import site.appjson.easywatermark.ui.UiState
+import site.appjson.easywatermark.ui.adapter.TextContentTemplateListAdapter
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
 
 class TextContentTemplateListFragment : BaseBindFragment<DialogEditTextTemplateListBinding>() {
 

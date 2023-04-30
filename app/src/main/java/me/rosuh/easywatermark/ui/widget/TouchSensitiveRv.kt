@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.animation.ObjectAnimator
 import android.content.Context
@@ -16,9 +16,9 @@ import androidx.core.graphics.withSave
 import androidx.core.view.children
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.utils.ktx.colorPrimary
-import me.rosuh.easywatermark.utils.ktx.dp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.utils.ktx.colorPrimary
+import site.appjson.easywatermark.utils.ktx.dp
 import kotlin.math.abs
 
 class TouchSensitiveRv : RecyclerView {

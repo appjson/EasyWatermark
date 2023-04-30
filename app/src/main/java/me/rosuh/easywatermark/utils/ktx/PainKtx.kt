@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Typeface
 import android.text.TextPaint
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.data.model.WaterMark
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.data.model.WaterMark
 
 /**
  * 因为预览和实际图像之间存在缩放，所以在预览时要除去缩放比。而在保存时，就不需要了

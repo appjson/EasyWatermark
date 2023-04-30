@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.panel
+package site.appjson.easywatermark.ui.panel
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
-import me.rosuh.easywatermark.databinding.FragmentTextStyleBinding
-import me.rosuh.easywatermark.ui.adapter.DividerAdapter
-import me.rosuh.easywatermark.ui.adapter.TextPaintStyleAdapter
-import me.rosuh.easywatermark.ui.adapter.TextTypefaceAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.databinding.FragmentTextStyleBinding
+import site.appjson.easywatermark.ui.adapter.DividerAdapter
+import site.appjson.easywatermark.ui.adapter.TextPaintStyleAdapter
+import site.appjson.easywatermark.ui.adapter.TextTypefaceAdapter
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.ui.widget.utils.BounceEdgeEffectFactory
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
 
 class TextStyleFragment : BaseBindFragment<FragmentTextStyleBinding>() {
     override fun bindView(

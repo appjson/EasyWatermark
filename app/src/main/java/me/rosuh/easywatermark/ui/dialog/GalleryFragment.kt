@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -14,13 +14,13 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.FragmentGalleryBinding
-import me.rosuh.easywatermark.ui.adapter.GalleryAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindBSDFragment
-import me.rosuh.easywatermark.ui.widget.UniformScrollGridLayoutManager
-import me.rosuh.easywatermark.utils.FileUtils
-import me.rosuh.easywatermark.utils.MultiPickContract
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.FragmentGalleryBinding
+import site.appjson.easywatermark.ui.adapter.GalleryAdapter
+import site.appjson.easywatermark.ui.base.BaseBindBSDFragment
+import site.appjson.easywatermark.ui.widget.UniformScrollGridLayoutManager
+import site.appjson.easywatermark.utils.FileUtils
+import site.appjson.easywatermark.utils.MultiPickContract
 
 
 class GalleryFragment : BaseBindBSDFragment<FragmentGalleryBinding>() {

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,8 +7,8 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.constraintlayout.utils.widget.ImageFilterView
 import androidx.core.view.children
-import me.rosuh.easywatermark.utils.ktx.colorSurface
-import me.rosuh.easywatermark.utils.ktx.dp
+import site.appjson.easywatermark.utils.ktx.colorSurface
+import site.appjson.easywatermark.utils.ktx.dp
 
 
 class GalleryItemView : FrameLayout {

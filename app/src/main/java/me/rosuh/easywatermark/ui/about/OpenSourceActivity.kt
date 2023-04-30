@@ -1,10 +1,10 @@
-package me.rosuh.easywatermark.ui.about
+package site.appjson.easywatermark.ui.about
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import me.rosuh.easywatermark.databinding.ActivityOpenSourceBinding
-import me.rosuh.easywatermark.utils.ktx.inflate
-import me.rosuh.easywatermark.utils.ktx.openLink
+import site.appjson.easywatermark.databinding.ActivityOpenSourceBinding
+import site.appjson.easywatermark.utils.ktx.inflate
+import site.appjson.easywatermark.utils.ktx.openLink
 
 class OpenSourceActivity : AppCompatActivity() {
 

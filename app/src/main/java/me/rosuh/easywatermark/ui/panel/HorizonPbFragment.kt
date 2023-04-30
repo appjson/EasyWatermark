@@ -1,13 +1,13 @@
-package me.rosuh.easywatermark.ui.panel
+package site.appjson.easywatermark.ui.panel
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.slider.Slider
-import me.rosuh.easywatermark.data.model.WaterMark
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
-import me.rosuh.easywatermark.ui.base.BasePBFragment
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.data.model.WaterMark
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.ui.base.BasePBFragment
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
 
 class HorizonPbFragment : BasePBFragment() {
 

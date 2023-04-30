@@ -1,8 +1,8 @@
-package me.rosuh.easywatermark.data.db.dao
+package site.appjson.easywatermark.data.db.dao
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
-import me.rosuh.easywatermark.data.model.entity.Template
+import site.appjson.easywatermark.data.model.entity.Template
 
 @Dao
 interface TemplateDao {

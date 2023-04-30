@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -8,11 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.color.MaterialColors
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.FuncTitleModel
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
-import me.rosuh.easywatermark.utils.ktx.colorPrimary
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.FuncTitleModel
+import site.appjson.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.utils.ktx.colorPrimary
 
 class FuncPanelAdapter(
     val dataSet: ArrayList<FuncTitleModel>

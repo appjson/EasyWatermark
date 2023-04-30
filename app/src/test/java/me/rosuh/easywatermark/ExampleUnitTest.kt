@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark
+package site.appjson.easywatermark
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

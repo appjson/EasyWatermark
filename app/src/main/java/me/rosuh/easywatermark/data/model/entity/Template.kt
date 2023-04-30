@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.model.entity
+package site.appjson.easywatermark.data.model.entity
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

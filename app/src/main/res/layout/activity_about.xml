@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="?attr/colorPrimary" />
 
-    <me.rosuh.easywatermark.ui.widget.ColoredImageVIew
+    <site.appjson.easywatermark.ui.widget.ColoredImageVIew
         android:id="@+id/iv_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -223,7 +223,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@id/tv_title" />
 
-                        <me.rosuh.easywatermark.ui.widget.CircleImageView
+                        <site.appjson.easywatermark.ui.widget.CircleImageView
                             android:id="@+id/civ_avatar"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -272,7 +272,7 @@
                             app:layout_constraintTop_toBottomOf="@id/tv_title_designer"
                             tools:text="Designer" />
 
-                        <me.rosuh.easywatermark.ui.widget.CircleImageView
+                        <site.appjson.easywatermark.ui.widget.CircleImageView
                             android:id="@+id/civ_avatar_designer"
                             android:layout_width="60dp"
                             android:layout_height="60dp"

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,14 +14,14 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.data.model.JobState
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
-import me.rosuh.easywatermark.ui.widget.ProgressImageView
-import me.rosuh.easywatermark.utils.ktx.appear
-import me.rosuh.easywatermark.utils.ktx.disappear
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.data.model.JobState
+import site.appjson.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.ui.widget.ProgressImageView
+import site.appjson.easywatermark.utils.ktx.appear
+import site.appjson.easywatermark.utils.ktx.disappear
 
 class SaveImageListAdapter(
     private val context: Context

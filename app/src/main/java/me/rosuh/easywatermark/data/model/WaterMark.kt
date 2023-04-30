@@ -1,8 +1,8 @@
-package me.rosuh.easywatermark.data.model
+package site.appjson.easywatermark.data.model
 
 import android.net.Uri
 import androidx.annotation.Keep
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
 
 @Keep
 data class WaterMark(

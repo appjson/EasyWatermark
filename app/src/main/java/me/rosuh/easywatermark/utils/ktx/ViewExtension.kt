@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.dynamicanimation.animation.SpringAnimation
 import androidx.dynamicanimation.animation.SpringForce
 import androidx.dynamicanimation.animation.SpringForce.DAMPING_RATIO_NO_BOUNCY
-import me.rosuh.easywatermark.ui.widget.utils.ViewAnimation
+import site.appjson.easywatermark.ui.widget.utils.ViewAnimation
 
 fun View.appearAnimation(
     dampingRatio: Float = SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY,

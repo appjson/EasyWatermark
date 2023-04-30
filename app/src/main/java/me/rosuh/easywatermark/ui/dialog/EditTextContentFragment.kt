@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.os.Bundle
 import android.text.Editable
@@ -12,10 +12,10 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
-import me.rosuh.easywatermark.databinding.DialogEditTextBinding
-import me.rosuh.easywatermark.ui.UiState
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.databinding.DialogEditTextBinding
+import site.appjson.easywatermark.ui.UiState
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
 
 class EditTextContentFragment : BaseBindFragment<DialogEditTextBinding>() {
 

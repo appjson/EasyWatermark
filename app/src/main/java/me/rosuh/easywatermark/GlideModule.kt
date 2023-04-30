@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark
+package site.appjson.easywatermark
 
 import android.content.Context
 import com.bumptech.glide.GlideBuilder

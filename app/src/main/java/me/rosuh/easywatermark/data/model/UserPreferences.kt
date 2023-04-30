@@ -1,8 +1,8 @@
-package me.rosuh.easywatermark.data.model
+package site.appjson.easywatermark.data.model
 
 import android.graphics.Bitmap
 import androidx.annotation.Keep
-import me.rosuh.easywatermark.data.repo.UserConfigRepository
+import site.appjson.easywatermark.data.repo.UserConfigRepository
 
 @Keep
 data class UserPreferences(

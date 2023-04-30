@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.net.Uri
 import android.widget.ImageView

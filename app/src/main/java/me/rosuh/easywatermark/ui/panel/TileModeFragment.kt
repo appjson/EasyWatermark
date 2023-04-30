@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.panel
+package site.appjson.easywatermark.ui.panel
 
 import android.graphics.Shader
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.FragmentTileModeBinding
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
-import me.rosuh.easywatermark.utils.ktx.titleTextColor
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.FragmentTileModeBinding
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.utils.ktx.titleTextColor
 
 class TileModeFragment : BaseBindFragment<FragmentTileModeBinding>() {
 

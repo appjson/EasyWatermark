@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.model
+package site.appjson.easywatermark.data.model
 
 import android.graphics.Shader
 import android.net.Uri

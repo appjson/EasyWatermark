@@ -1,9 +1,9 @@
-package me.rosuh.easywatermark.ui.base
+package site.appjson.easywatermark.ui.base
 
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import me.rosuh.easywatermark.data.model.WaterMark
-import me.rosuh.easywatermark.ui.MainViewModel
+import site.appjson.easywatermark.data.model.WaterMark
+import site.appjson.easywatermark.ui.MainViewModel
 
 open class BaseBSDFragment : BottomSheetDialogFragment() {
 

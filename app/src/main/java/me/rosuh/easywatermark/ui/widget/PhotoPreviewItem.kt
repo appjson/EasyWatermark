@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -10,10 +10,10 @@ import android.widget.ImageView
 import androidx.core.view.children
 import androidx.core.view.setPadding
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.utils.VibrateHelper
-import me.rosuh.easywatermark.utils.ktx.appear
-import me.rosuh.easywatermark.utils.ktx.dp
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.utils.VibrateHelper
+import site.appjson.easywatermark.utils.ktx.appear
+import site.appjson.easywatermark.utils.ktx.dp
 
 class PhotoPreviewItem : ViewGroup {
     constructor(context: Context?) : super(context)

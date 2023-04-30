@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,10 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.FragmentManager
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.entity.Template
-import me.rosuh.easywatermark.databinding.DialogEditTemplateBinding
-import me.rosuh.easywatermark.ui.base.BaseBindBSDFragment
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.entity.Template
+import site.appjson.easywatermark.databinding.DialogEditTemplateBinding
+import site.appjson.easywatermark.ui.base.BaseBindBSDFragment
 import java.util.Date
 
 class EditTemplateContentFragment : BaseBindBSDFragment<DialogEditTemplateBinding>() {

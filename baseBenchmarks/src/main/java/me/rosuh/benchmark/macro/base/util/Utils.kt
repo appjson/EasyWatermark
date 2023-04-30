@@ -16,5 +16,5 @@
 
 package com.example.benchmark.macro.base.util
 
-const val TARGET_PACKAGE = "me.rosuh.easywatermark"
+const val TARGET_PACKAGE = "site.appjson.easywatermark"
 const val DEFAULT_ITERATIONS = 10

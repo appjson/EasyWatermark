@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.panel
+package site.appjson.easywatermark.ui.panel
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.commitNow
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.FragmentTextContentDisplayBinding
-import me.rosuh.easywatermark.ui.adapter.TextPaintStyleAdapter
-import me.rosuh.easywatermark.ui.adapter.TextTypefaceAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindFragment
-import me.rosuh.easywatermark.utils.ktx.commitWithAnimation
-import me.rosuh.easywatermark.utils.ktx.titleTextColor
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.FragmentTextContentDisplayBinding
+import site.appjson.easywatermark.ui.adapter.TextPaintStyleAdapter
+import site.appjson.easywatermark.ui.adapter.TextTypefaceAdapter
+import site.appjson.easywatermark.ui.base.BaseBindFragment
+import site.appjson.easywatermark.utils.ktx.commitWithAnimation
+import site.appjson.easywatermark.utils.ktx.titleTextColor
 
 class TextContentDisplayFragment : BaseBindFragment<FragmentTextContentDisplayBinding>() {
     override fun bindView(

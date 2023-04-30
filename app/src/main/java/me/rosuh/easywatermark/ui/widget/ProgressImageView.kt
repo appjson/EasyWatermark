@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
@@ -12,8 +12,8 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isVisible
 import com.google.android.material.color.MaterialColors
-import me.rosuh.easywatermark.utils.ktx.colorError
-import me.rosuh.easywatermark.utils.ktx.colorTertiary
+import site.appjson.easywatermark.utils.ktx.colorError
+import site.appjson.easywatermark.utils.ktx.colorTertiary
 import java.util.concurrent.atomic.AtomicBoolean
 
 class ProgressImageView : AppCompatImageView {

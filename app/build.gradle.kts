@@ -12,11 +12,11 @@ android {
     compileSdk = (Apps.compileSdk)
     buildToolsVersion = (Apps.buildTools)
     defaultConfig {
-        applicationId = "me.rosuh.easywatermark"
+        applicationId = "site.appjson.easywatermark"
         minSdk = (Apps.minSdk)
         targetSdk = (Apps.targetSdk)
-        versionCode = 20808
-        versionName = "2.8.8"
+        versionCode = 30001
+        versionName = "渚v0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         setProperty("archivesBaseName", "$applicationId-v$versionName($versionCode)")
     }
@@ -68,7 +68,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    namespace = "me.rosuh.easywatermark"
+    namespace = "site.appjson.easywatermark"
 
     lint {
         baseline = file("lint-baseline.xml")

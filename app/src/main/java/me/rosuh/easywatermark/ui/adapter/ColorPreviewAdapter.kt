@@ -1,13 +1,13 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
-import me.rosuh.easywatermark.ui.widget.SelectableImageView
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.ui.widget.SelectableImageView
 
 class ColorPreviewAdapter(
     val previewList: ArrayList<PreViewModel>

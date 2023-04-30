@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -16,16 +16,16 @@ import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.data.model.JobState
-import me.rosuh.easywatermark.data.model.Result
-import me.rosuh.easywatermark.databinding.DialogSaveFileBinding
-import me.rosuh.easywatermark.ui.MainActivity
-import me.rosuh.easywatermark.ui.MainViewModel
-import me.rosuh.easywatermark.ui.adapter.SaveImageListAdapter
-import me.rosuh.easywatermark.ui.base.BaseBindBSDFragment
-import me.rosuh.easywatermark.utils.ktx.preCheckStoragePermission
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.data.model.JobState
+import site.appjson.easywatermark.data.model.Result
+import site.appjson.easywatermark.databinding.DialogSaveFileBinding
+import site.appjson.easywatermark.ui.MainActivity
+import site.appjson.easywatermark.ui.MainViewModel
+import site.appjson.easywatermark.ui.adapter.SaveImageListAdapter
+import site.appjson.easywatermark.ui.base.BaseBindBSDFragment
+import site.appjson.easywatermark.utils.ktx.preCheckStoragePermission
 
 
 class SaveImageBSDialogFragment : BaseBindBSDFragment<DialogSaveFileBinding>() {

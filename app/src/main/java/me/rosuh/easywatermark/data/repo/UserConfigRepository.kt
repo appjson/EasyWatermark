@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.repo
+package site.appjson.easywatermark.data.repo
 
 import android.graphics.Bitmap
 import androidx.datastore.core.DataStore
@@ -6,11 +6,11 @@ import androidx.datastore.preferences.core.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
-import me.rosuh.easywatermark.BuildConfig
-import me.rosuh.easywatermark.data.model.UserPreferences
-import me.rosuh.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_CHANGE_LOG
-import me.rosuh.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_COMPRESS_LEVEL
-import me.rosuh.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_OUTPUT_FORMAT
+import site.appjson.easywatermark.BuildConfig
+import site.appjson.easywatermark.data.model.UserPreferences
+import site.appjson.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_CHANGE_LOG
+import site.appjson.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_COMPRESS_LEVEL
+import site.appjson.easywatermark.data.repo.UserConfigRepository.PreferenceKeys.KEY_OUTPUT_FORMAT
 import java.io.IOException
 import javax.inject.Inject
 import javax.inject.Named

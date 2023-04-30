@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui
+package site.appjson.easywatermark.ui
 
 import android.net.Uri
 

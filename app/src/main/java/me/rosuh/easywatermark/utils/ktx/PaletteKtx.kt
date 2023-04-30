@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.utils.ktx
+package site.appjson.easywatermark.utils.ktx
 
 import android.content.Context
 import android.util.Log
 import androidx.core.content.ContextCompat
 import androidx.palette.graphics.Palette
 import com.google.android.material.color.MaterialColors
-import me.rosuh.easywatermark.R
+import site.appjson.easywatermark.R
 
 fun Palette?.bgColor(context: Context): Int {
     if (this == null) {

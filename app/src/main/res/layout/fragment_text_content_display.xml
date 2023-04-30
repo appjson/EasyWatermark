@@ -29,7 +29,7 @@
         app:layout_constraintHorizontal_chainStyle="packed"
         tools:text="输入文字" />
 
-    <me.rosuh.easywatermark.ui.widget.BlinkCursorView
+    <site.appjson.easywatermark.ui.widget.BlinkCursorView
         android:id="@+id/blink_cursor"
         android:layout_width="3dp"
         android:layout_height="0dp"

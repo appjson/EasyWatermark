@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,11 +9,11 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.data.model.ImageInfo
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
-import me.rosuh.easywatermark.ui.widget.PhotoPreviewItem
-import me.rosuh.easywatermark.utils.VibrateHelper
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.data.model.ImageInfo
+import site.appjson.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.ui.widget.PhotoPreviewItem
+import site.appjson.easywatermark.utils.VibrateHelper
 
 class PhotoListPreviewAdapter(
     private val context: Context

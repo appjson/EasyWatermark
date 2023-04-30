@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.widget.utils
+package site.appjson.easywatermark.ui.widget.utils
 
 import android.graphics.BitmapShader
 

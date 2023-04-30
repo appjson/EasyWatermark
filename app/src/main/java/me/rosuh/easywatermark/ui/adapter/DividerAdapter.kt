@@ -1,11 +1,11 @@
-package me.rosuh.easywatermark.ui.adapter
+package site.appjson.easywatermark.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.ui.base.BaseViewHolder
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.ui.base.BaseViewHolder
 
 class DividerAdapter(
     private val dividerSize: Int = 1

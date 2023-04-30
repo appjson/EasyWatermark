@@ -1,10 +1,10 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.asynclayoutinflater.view.AsyncLayoutInflater
-import me.rosuh.easywatermark.R
+import site.appjson.easywatermark.R
 
 class AsyncSquareFrameLayout : SquareFrameLayout {
 

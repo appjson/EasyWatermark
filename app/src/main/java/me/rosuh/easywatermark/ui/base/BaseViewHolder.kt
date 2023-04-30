@@ -1,10 +1,10 @@
-package me.rosuh.easywatermark.ui.base
+package site.appjson.easywatermark.ui.base
 
 import android.view.View
 import androidx.dynamicanimation.animation.SpringAnimation
 import androidx.dynamicanimation.animation.SpringForce
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.utils.ItemClickSupportViewHolder
+import site.appjson.easywatermark.utils.ItemClickSupportViewHolder
 
 open class BaseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
     ItemClickSupportViewHolder {

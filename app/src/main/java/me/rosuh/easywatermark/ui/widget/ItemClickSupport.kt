@@ -1,8 +1,8 @@
-package me.rosuh.easywatermark.utils
+package site.appjson.easywatermark.utils
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import me.rosuh.easywatermark.R
+import site.appjson.easywatermark.R
 
 typealias OnRecyclerViewItemClickListener = (recyclerView: RecyclerView, position: Int, v: View) -> Unit
 typealias OnRecyclerViewItemLongClickListener = (recyclerView: RecyclerView, position: Int, v: View) -> Boolean

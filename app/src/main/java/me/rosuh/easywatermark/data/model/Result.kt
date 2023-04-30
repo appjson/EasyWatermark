@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.data.model
+package site.appjson.easywatermark.data.model
 
 class Result<T>(
     var type: Type,

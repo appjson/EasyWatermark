@@ -1,13 +1,13 @@
-package me.rosuh.easywatermark.ui.widget
+package site.appjson.easywatermark.ui.widget
 
 import android.widget.SeekBar
 import com.google.android.material.slider.Slider
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.data.model.WaterMark
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
-import me.rosuh.easywatermark.ui.widget.DetectedPerformanceSeekBarListener.Companion.HIGH_PERFORMANCE_MEMORY
-import me.rosuh.easywatermark.ui.widget.DetectedPerformanceSlideTouchListener.Companion.HIGH_PERFORMANCE_MEMORY
-import me.rosuh.easywatermark.utils.bitmap.getAvailableMemory
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.data.model.WaterMark
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.ui.widget.DetectedPerformanceSeekBarListener.Companion.HIGH_PERFORMANCE_MEMORY
+import site.appjson.easywatermark.ui.widget.DetectedPerformanceSlideTouchListener.Companion.HIGH_PERFORMANCE_MEMORY
+import site.appjson.easywatermark.utils.bitmap.getAvailableMemory
 
 /**
  * An subClass of [SeekBar.OnSeekBarChangeListener] which using [isHighPerformancePredicate] to decide

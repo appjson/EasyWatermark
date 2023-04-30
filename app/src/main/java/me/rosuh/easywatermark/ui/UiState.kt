@@ -1,6 +1,6 @@
-package me.rosuh.easywatermark.ui
+package site.appjson.easywatermark.ui
 
-import me.rosuh.easywatermark.data.model.entity.Template
+import site.appjson.easywatermark.data.model.entity.Template
 
 sealed class UiState {
     class UseTemplate(val template: Template) : UiState()

@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.utils.bitmap
+package site.appjson.easywatermark.utils.bitmap
 
 import android.app.ActivityManager
 import android.content.ContentResolver
@@ -18,9 +18,9 @@ import android.widget.ImageView.ScaleType
 import androidx.exifinterface.media.ExifInterface
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.rosuh.easywatermark.MyApp
-import me.rosuh.easywatermark.data.model.Result
-import me.rosuh.easywatermark.data.model.ViewInfo
+import site.appjson.easywatermark.MyApp
+import site.appjson.easywatermark.data.model.Result
+import site.appjson.easywatermark.data.model.ViewInfo
 import java.io.FileNotFoundException
 import java.io.InputStream
 import java.lang.ref.SoftReference

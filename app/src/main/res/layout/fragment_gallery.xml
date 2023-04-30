@@ -24,7 +24,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <me.rosuh.easywatermark.ui.widget.MultiSelectRv
+    <site.appjson.easywatermark.ui.widget.MultiSelectRv
         android:id="@+id/rv_content"
         android:layout_width="match_parent"
         android:layout_height="0dp"

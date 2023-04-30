@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.di
+package site.appjson.easywatermark.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -10,8 +10,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import me.rosuh.easywatermark.data.repo.UserConfigRepository
-import me.rosuh.easywatermark.data.repo.WaterMarkRepository
+import site.appjson.easywatermark.data.repo.UserConfigRepository
+import site.appjson.easywatermark.data.repo.WaterMarkRepository
 import javax.inject.Named
 import javax.inject.Singleton
 

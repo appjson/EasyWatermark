@@ -1,4 +1,4 @@
-package me.rosuh.easywatermark.ui.dialog
+package site.appjson.easywatermark.ui.dialog
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -21,11 +21,11 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.transition.MaterialFadeThrough
 import kotlinx.coroutines.launch
-import me.rosuh.easywatermark.R
-import me.rosuh.easywatermark.databinding.DialogEditTextContainerBinding
-import me.rosuh.easywatermark.ui.UiState
-import me.rosuh.easywatermark.ui.base.BaseBindBSDFragment
-import me.rosuh.easywatermark.utils.ktx.getScreenHeight
+import site.appjson.easywatermark.R
+import site.appjson.easywatermark.databinding.DialogEditTextContainerBinding
+import site.appjson.easywatermark.ui.UiState
+import site.appjson.easywatermark.ui.base.BaseBindBSDFragment
+import site.appjson.easywatermark.utils.ktx.getScreenHeight
 
 class TextWatermarkBSDFragment : BaseBindBSDFragment<DialogEditTextContainerBinding>() {
 
